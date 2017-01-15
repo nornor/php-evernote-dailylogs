@@ -2,10 +2,9 @@
 A simple demo that creates Evernote notes using the evernote's developer token. I use this script with linux cronb to create dairy titled as "YYYY/MM/DD 星期X"
 
 **Attention**
-
 Developer tokens are available for the Evernote sandbox and production services. But in this case,the codes are for the production service.
 
-##PHP PART
+##PHP Side
 
 ###1/Get Your Developer Token
 
@@ -15,3 +14,13 @@ Developer tokens are available for the Evernote sandbox and production services.
 
 ###2/Replace the token
 `$token = 'REPLACE YOUR TOKEN HERE';`
+
+###3/Upload to your Server
+
+-------
+
+##Server Side
+
+###1/Make sure PHP installed
+
+###2/
