@@ -34,4 +34,16 @@ Developer tokens are available for the Evernote sandbox and production services.
 Execute create.php on your server and check your evernote default notebook.
 
 ###3/Create a shell script
-{ {{ code here, no space }} }
+
+```
+#!/bin/bash
+#etc:php /data/nornor/evernote-dairy/create.php
+php "your php location"
+
+```
+
+###4/Add to Crontab
+
+`crontab -e `
+
+`30 5 * * * /data/nornor/evernote-dairy/evernote-auto.sh`
