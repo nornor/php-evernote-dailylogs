@@ -18,7 +18,7 @@ Developer tokens are available for the Evernote sandbox and production services.
 
 `$sandbox = false;  //SET THE ENV TO PRODUCTION SERVICE`
 
-`$china   = true;;  //印象笔记用户:true  International User:False`
+`$china   = true;  //印象笔记用户:true  International User:false`
 
 
 ###3 Upload to your Server
@@ -29,7 +29,7 @@ Developer tokens are available for the Evernote sandbox and production services.
 
 ###1 Make sure PHP installed
 
-###2 xecute create.php 
+###2 Execute create.php 
 
 Execute create.php on your server and check your evernote default notebook.
 
